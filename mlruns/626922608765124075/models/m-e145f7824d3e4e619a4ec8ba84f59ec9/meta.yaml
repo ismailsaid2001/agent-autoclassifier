@@ -1,0 +1,10 @@
+artifact_location: file:///app/mlruns/626922608765124075/models/m-e145f7824d3e4e619a4ec8ba84f59ec9/artifacts
+creation_timestamp: 1752083292711
+experiment_id: '626922608765124075'
+last_updated_timestamp: 1752083297155
+model_id: m-e145f7824d3e4e619a4ec8ba84f59ec9
+model_type: null
+name: trained_classifier_model
+source_run_id: a87fc4433bc646789a55003ca5e60a43
+status: 2
+status_message: null

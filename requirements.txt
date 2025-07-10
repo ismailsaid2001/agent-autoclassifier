@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+mlflow
+uvicorn
+fastapi
+python-multipart  # Nécessaire pour FastAPI si vous utilisez des formulaires ou uploads

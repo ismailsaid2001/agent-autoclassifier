@@ -1,0 +1,10 @@
+artifact_location: file:///app/mlruns/626922608765124075/models/m-b5e2d7791bd04f49be528f28f15b88b9/artifacts
+creation_timestamp: 1752106232360
+experiment_id: '626922608765124075'
+last_updated_timestamp: 1752106236025
+model_id: m-b5e2d7791bd04f49be528f28f15b88b9
+model_type: null
+name: full_ml_pipeline
+source_run_id: 57f046748cd646dd8917face89d51539
+status: 2
+status_message: null

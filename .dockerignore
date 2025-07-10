@@ -1,0 +1,14 @@
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.vscode/
+.DS_Store
+*.ipynb
+*.log
+mlruns/         # Exclure le dossier MLflow local si vous utilisez un serveur distant
+data/           # Si vous ne voulez pas inclure le dataset dans l'image Docker finale (seulement via volume mount)

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  ml_agent_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - ./data:/app/data
+    ports:
+      - "80:80" # Mappe le port 80 du conteneur au port 80 de l'hôte
+    command: uvicorn src.main:app --host 0.0.0.0 --port 80 --reload
+    # Pour MLflow, nous pourrions ajouter un service de tracking MLflow ici
+    # mlruns_volume:
+    #   driver: local
